@@ -1,0 +1,30 @@
+/*@import "reset";
+@import "syntax";
+
+body {
+    background: white;
+}*/
+
+/* ==============================================
+	STYLE.SCSS
+	These files will all be concatenated to the main styles file
+============================================== */
+
+// Import globals
+@import "global/reset",
+				"global/variables",
+				"global/mixins",
+				"global/colors",
+				"global/fonts",
+				"global/icons",
+				"global/breakpoints",
+				"global/grid",
+				"global/global";
+
+// Modules
+@import "modules/header",
+				"modules/search",
+				"modules/sub-nav-bar",
+				"modules/hero",
+				"modules/menu-list-item",
+				"modules/footer";

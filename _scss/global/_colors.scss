@@ -1,0 +1,31 @@
+/* ==============================================
+	COLORS.SCSS
+	Include all of your color variables here
+============================================== */
+
+$darkGray: #373737;
+$medGray: #e5e5e5;
+$alMedGray: #e8e6e6;
+$anLightGray: #959595;
+$bLightGray: #d7d7d7;
+$lightGray: #f7f7f7;
+$resetGray: #333333;
+$faintGray: #cccccc;
+$blue: #137eb0;
+$darkBlue: #212161;
+$white: #FFFFFF;
+$orange: #df8f06;
+$white: #FFF;
+$black: #333333;
+$red: #d90000;
+
+@mixin blue-gradient(){
+	background-color: #023786;
+	background: -moz-linear-gradient(top,#00bdf2 12%,#00a6e7 33%,#023786 106%);
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(12%,#00bdf2),color-stop(33%,#00a6e7),color-stop(106%,#023786));
+	background: -webkit-linear-gradient(top,#00bdf2 0,#00a6e7 33%,#023786 106%);
+	background: -o-linear-gradient(top,#00bdf2 12%,#00a6e7 33%,#023786 106%);
+	background: -ms-linear-gradient(top,#00bdf2 12%,#00a6e7 33%,#023786 106%);
+	background: linear-gradient(to bottom,#00bdf2 12%,#00a6e7 33%,#023786 106%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00bdf2, endColorstr=#023786, GradientType=0);
+}
